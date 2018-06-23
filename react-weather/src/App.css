@@ -30,7 +30,7 @@
 
 
 main {
-  border: 1px solid #000;
+  border: 1px solid lightgray;
   width: 400px;
   height: 200px;
   box-shadow: 5px 5px 10px #999; 
@@ -41,26 +41,40 @@ main {
   margin-top: 45px;
   margin-left: 37px;
 }
+.weather {
+  color:grey;
+
+}
 .left {
   float: left;
+  text-align: left
 }
 .right {
   float: left;
+  text-align: left;
   margin-top: 25px;
   margin-left: 50px;
+  color:grey;
+
 }
 .icon {
-  width: 90px;
+  width: 80px;
 }
 .temperature {
-  float: right;
   font-size: 40px;
+  float: right;
 }
 .temperature span {
 font-size: 20px;
 float: right;
 }
 .location {
-  font-weight: 900;
+  font-size:20px;
+  color:grey;
+  
+}
+.darksky {
+  margin-top:30px;
+  color: gray;
 }
 

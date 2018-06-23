@@ -21,12 +21,17 @@ export default function CityCondition(props) {
               </div>
               <div className='temperature'>{Math.floor((temp-32)*5/9)}<span> ℃</span></div>
 
+
           </section>
           <section className='right'>
              <div className='precipitation'>Precipitation: {precipitation}%</div>
              <div className='humidity'>Humidity: {Math.floor(humidity*100)}%</div>
              <div className='wind'>Wind: {wind} km/h</div>
+             <div className='darksky'>Powered by DarkSky</div>
+
           </section>
+
+
         </div>
     )
   }

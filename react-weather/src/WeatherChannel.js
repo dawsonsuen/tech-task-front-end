@@ -51,7 +51,7 @@ export default class WeatherChannel extends Component {
                         humidity={humidity}
                         wind={wind}
                 />
-                
+
             </main>
         )
     }
